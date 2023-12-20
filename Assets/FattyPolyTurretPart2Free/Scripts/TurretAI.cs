@@ -47,8 +47,7 @@ public class TurretAI : MonoBehaviour
 		{
 			animator = transform.GetChild(0).GetComponent<Animator>();
 		}
-
-		// Todo init rotate
+		InitRotate();
 	}
 
 	void Update()
@@ -66,8 +65,7 @@ public class TurretAI : MonoBehaviour
 		}
 		else
 		{
-			// Todo 
-			// idle rotate 
+			IdleRotate();
 		}
 
 		timer += Time.deltaTime;

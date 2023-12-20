@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Meshing/Scenes/Meshing.unity
     guid: d5ebb81bb19834855bb7ca490ab73fbf
-  - enabled: 1
+  - enabled: 0
     path: Assets/_App/Scenes/BasicTestScene.unity
     guid: 74a06f3b6b4a94358a6b267009b671a9
   m_configObjects:
